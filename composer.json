@@ -1,7 +1,6 @@
 {
 	"name": "weavephp/emitter-laminas",
-    "description": "Weave glue-framework Laminas PSR7 HTTP Emitter",
-    "version": "1.0.0",
+	"description": "Weave glue-framework Laminas PSR7 HTTP Emitter",
 	"type": "weave-adaptor",
 	"keywords" : ["weave", "PSR7", "adaptor"],
 	"license": "MIT",
