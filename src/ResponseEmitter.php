@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types = 1);
+
 /**
  * Weave Laminas PSR7 Adaptor Emitter.
  */
@@ -17,9 +20,9 @@ class ResponseEmitter implements \Weave\Http\ResponseEmitterInterface
 	 *
 	 * @param Response $response The response object to emit to the client.
 	 *
-	 * @return null
+	 * @return void
 	 */
-	public function emit(Response $response)
+	public function emit(Response $response): void
 	{
 		$emitter = new \Laminas\HttpHandlerRunner\Emitter\SapiEmitter();
 		$emitter->emit($response);
