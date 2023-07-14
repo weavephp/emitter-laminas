@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"laminas/laminas-httphandlerrunner":"^1.1.0"
+		"laminas/laminas-httphandlerrunner":"^1.1.0 || ^2.0.0"
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "^3.0"
